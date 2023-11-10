@@ -1,0 +1,6 @@
+Follow tutorial: https://www.youtube.com/watch?v=7DStwsEj7rA
+The aim here was to build a system that utalize the power of LLM Chat GPT-2 Model tuned according to our data. For that I created below:
+1) Embeddings of PDF
+2) Stored them to Qdrant (an open source vector DB)
+3) Score calculate Testing with prompt embeddings and DB Vector embeddings and comparision amongst them
+4) Used BERT base model to generate the response at the end.
